@@ -23,3 +23,10 @@
 .instruction-heading {
     font-family: "Courier New", Monaco;
 }
+
+.home-return {
+    font-family: "Brush Script MT", Georgia;
+    font-size: 25px;
+    font-weight: 200;
+    color:cornflowerblue;
+}
