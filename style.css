@@ -1,19 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 #home-heading.main-heading {
     font-family: "Brush Script MT", Georgia;
     font-size: 60px;
-    background-color:burlywood;
+    background-color:bisque;
     color:cadetblue;
     text-align: center;
     margin: 10px;
     padding: 15px;
+    border: 3px solid lightseagreen;
 }
 
 .highlight {
-    color:blanchedalmond;
+    color:coral;
 }
 
 .nav-guide {
     font-family: Garamond, Georgia;
+    margin: 35px;
+    border-top: 10px solid cornflowerblue;
+    padding-top: 20px;
+}
+.nav-guide > li {
+    margin: 15px;
+    padding: 5px;
+    width: 400px;
+    border-bottom: 2px solid coral;
+    background-color: bisque;
 }
 
 .main-heading {
