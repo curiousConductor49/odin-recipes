@@ -1,7 +1,11 @@
 #home-heading.main-heading {
     font-family: "Brush Script MT", Georgia;
-    font-size: 46px;
-    color:burlywood;
+    font-size: 60px;
+    background-color:burlywood;
+    color:cadetblue;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
 }
 
 .nav-guide {
